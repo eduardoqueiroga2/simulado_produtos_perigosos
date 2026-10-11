@@ -1,19 +1,9 @@
-# Simulado de Produtos Perigosos
+# Simulado de Produtos Perigosos — GitHub Pages
 
-Site estático com 90 questões, comentários por alternativa, navegação e salvamento local do progresso.
+## Arquivos para publicação
+- `index.html`: site do simulado.
+- `revisao-produtos-perigosos.pdf`: apresentação de revisão acessível pelo botão no painel abaixo das questões.
 
-## Publicar no GitHub Pages
+Envie os dois arquivos para a raiz do repositório do GitHub. O `README.md` é opcional e serve como documentação.
 
-Envie para a raiz do repositório:
-
-- `index.html` — página principal do simulado.
-- `revisao-produtos-perigosos.pdf` — apresentação de revisão convertida para PDF e aberta pelo botão no site.
-- `README.md` — instruções do projeto (opcional para o funcionamento do site).
-
-Depois, no GitHub, abra **Settings → Pages**, escolha **Deploy from a branch**, selecione a branch principal e a pasta `/ (root)` e salve.
-
-**Importante:** mantenha `index.html` e `revisao-produtos-perigosos.pdf` na mesma pasta (raiz). O botão “Abrir revisão em PDF” usa um caminho relativo para o PDF. Ao clicar, a apresentação abre em uma nova aba; no celular, o comportamento pode variar conforme o navegador e o leitor de PDF instalado.
-
-O progresso do quiz fica salvo no armazenamento local do navegador e não sincroniza automaticamente entre dispositivos.
-
-`REVISAO-EDITORIAL.md` é um relatório interno/opcional e não é necessário para o site funcionar.
+O site foi organizado para que, no celular, o título apareça primeiro, seguido imediatamente pela questão. O painel de progresso, navegação e botão **Revisão em PDF** ficam abaixo da questão.
